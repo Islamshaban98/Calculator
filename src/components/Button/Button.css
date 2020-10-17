@@ -1,0 +1,28 @@
+.Button {
+  background-color: #212638;
+  width: 66px;
+  height: 66px;
+  border-radius: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.Button.zero{
+  width: 150px;
+  grid-column: 1 / span 2;
+  position: relative;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+.Button.function{
+    color:#212638;
+    background-color: #8490FF;
+}
+.Button.operator{
+    color: #FFFFFF;
+    background-color:#34509E ;
+}
