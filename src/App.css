@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@800&display=swap%22");
 body{
     background-color:  #E5E5E5;
+<<<<<<< HEAD
+    font-family: "Chathura", sans-serif;
+    
+
+||||||| 2fd19e4
+=======
     font-family: "Chathura", sans-serif;
     font-size: 130px;
 
+>>>>>>> 1-design
 }
 .App{
     width: 375px;
