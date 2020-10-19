@@ -1,8 +1,11 @@
 import React from "react";
 import "./Button.css";
-const Button = ({ content, type }) => {
+const Button = ({ content, type, onPress }) => {
   return (
-    <div className={`Button ${content === "0" ? "zero" : " "} ${type || ""}`}>
+    <div
+      className={`Button ${content === "0" ? "zero" : " "} ${type || ""}`}
+      onClick={onPress(content)}
+    >
       {content}
     </div>
   );

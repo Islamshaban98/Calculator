@@ -7,8 +7,12 @@
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  font-size: 26px;
+  font-size: 36px;
   cursor: pointer;
+}
+.Button:active,
+.Button:focus{
+  filter:brightness(120%)
 }
 
 .Button.zero{
